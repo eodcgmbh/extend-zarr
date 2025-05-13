@@ -38,6 +38,7 @@ jupyterlab_code_formatter = "*"
 jupyterlab_vim = "*"
 ruff = "*"
 setuptools-scm = "*"
+twine = "*"
 
 [tool.pixi.feature.test.dependencies]
 pytest = "*"
@@ -96,3 +97,6 @@ ignore = [
 docstring-quotes = "double"
 inline-quotes = "single"
 multiline-quotes = "double"
+
+[dependency-groups]
+development = ["build"]
