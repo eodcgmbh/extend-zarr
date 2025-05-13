@@ -4,6 +4,12 @@ Library for writing a new DataArray to a Zarr file containing a DataArray
 If necessary, the Coordinates of the DataArray in the Zarr file is extended and
 the DataArray data is written.
 
+## Installation
+
+```bash
+pip install extend-zarr
+```
+
 ## Usage
 
 ```python
