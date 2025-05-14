@@ -9,6 +9,12 @@ dependencies = [
 name = "extend-zarr"
 requires-python = ">= 3.11,< 3.13"
 dynamic = ["version"]
+readme = "README.md"
+
+[project.urls]
+Homepage = "https://github.com/eodcgmbh/extend-zarr/"
+Repository = "https://github.com/eodcgmbh/extend-zarr.git"
+Issues =  "https://github.com/eodcgmbh/extend-zarr/issues"
 
 [build-system]
 build-backend = "setuptools.build_meta"

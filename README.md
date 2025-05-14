@@ -1,6 +1,6 @@
 # Extend Zarr
 
-Library for writing a new DataArray to a Zarr file containing a DataArray
+Library for writing a new DataArray to a Zarr file containing a DataArray.
 If necessary, the Coordinates of the DataArray in the Zarr file is extended and
 the DataArray data is written.
 
@@ -21,6 +21,9 @@ extend_zarr(dataarray=dataarray,
             zarr_path=zarr_path,
             var_name='value')
 ```
+
+A notebook explaining the behavior of the function is available in
+[examples](https://github.com/eodcgmbh/extend-zarr/blob/main/examples/extend_zarr.ipynb).
 
 ## Limitations
 
